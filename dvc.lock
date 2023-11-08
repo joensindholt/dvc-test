@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  transpose:
+    cmd: powershell Copy-Item data/data2.xml data/columns.txt
+    deps:
+    - path: data/data2.xml
+      hash: md5
+      md5: d41d8cd98f00b204e9800998ecf8427e
+      size: 0
+    outs:
+    - path: data/columns.txt
+      hash: md5
+      md5: d41d8cd98f00b204e9800998ecf8427e
+      size: 0
