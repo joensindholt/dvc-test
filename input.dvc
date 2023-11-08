@@ -1,12 +1,12 @@
-md5: a6b41b3f1345201f664f6cfdebb7c4c5
+md5: 8867f4f8619641c9a1d97901cb78da27
 deps:
-- md5: 11e90a0e76107bc10572450570d37b31.dir
+- md5: 851e3c270322a14f6910d71769a8e43a.dir
   size: 22
   nfiles: 1
   hash: md5
   path: s3://sindholt-house-dvc-test/input
 outs:
-- md5: bf347c0cbfde356d9403e5259c2ebcc4.dir
+- md5: 07c2dc40ca4bdf3343d196916950f654.dir
   size: 22
   nfiles: 1
   hash: md5
