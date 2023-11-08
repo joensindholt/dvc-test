@@ -5,10 +5,10 @@ stages:
     deps:
     - path: input/input.json
       hash: md5
-      md5: ec1b7e19ab9d536429e5b2a26e88b440
+      md5: 5dccde64c1ffbaa89f66642c0a10f8b7
       size: 23
     outs:
     - path: output/output.json
       hash: md5
-      md5: ec1b7e19ab9d536429e5b2a26e88b440
+      md5: 5dccde64c1ffbaa89f66642c0a10f8b7
       size: 23
