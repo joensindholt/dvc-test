@@ -1,13 +1,7 @@
 stages:
   transpose:
-    cmd: powershell Copy-Item deps/data.xml data/columns.txt
+    cmd: powershell Copy-Item input/azurite_db_table.json output/azurite_db_table-output.json
     deps:
-      - deps/data.xml
+      - input/azurite_db_table.json
     outs:
-      - data/columns.txt
-  foo:
-    cmd: powershell Copy-Item input/data.xml data/columns2.txt
-    deps:
-      - input/data.xml
-    outs:
-      - data/columns2.txt
+      - output/azurite_db_table-output.json
