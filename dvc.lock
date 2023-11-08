@@ -1,12 +1,14 @@
 schema: '2.0'
 stages:
   transpose:
-    cmd: powershell Copy-Item input/azurite_db_table.json output/azurite_db_table-output.json
+    cmd: powershell aws s3 cp s3://sindholt-house-dvc-test/input/azurite_db_table.json
+      ./output/azurite_db_table-output.json
     deps:
-    - path: input/azurite_db_table.json
+    - path: s3://sindholt-house-dvc-test/input/azurite_db_table.json
       hash: md5
-      md5: 79ae43678dbc652a4fe79e60c659d962
+      etag: 79ae43678dbc652a4fe79e60c659d962
       size: 22
+      version_id: WSTCsNnnLqBkN0bXPR5fytO0zqXot56p
     outs:
     - path: output/azurite_db_table-output.json
       hash: md5
