@@ -5,10 +5,10 @@ stages:
     deps:
     - path: input/azurite_db_table.json
       hash: md5
-      md5: 622eaf49643b0116bf7c8028989bf898
-      size: 6906
+      md5: 3a4e0c4b30143704638b2165b1f40b96
+      size: 22
     outs:
     - path: output/azurite_db_table-output.json
       hash: md5
-      md5: 622eaf49643b0116bf7c8028989bf898
-      size: 6906
+      md5: 3a4e0c4b30143704638b2165b1f40b96
+      size: 22
