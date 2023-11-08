@@ -5,3 +5,9 @@ stages:
       - deps/data.xml
     outs:
       - data/columns.txt
+  foo:
+    cmd: powershell Copy-Item input/data.xml data/columns2.txt
+    deps:
+      - input/data.xml
+    outs:
+      - data/columns2.txt

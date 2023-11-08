@@ -12,3 +12,15 @@ stages:
       hash: md5
       md5: b40f31bee060091c1e3e9ee6cf4ddcda
       size: 178
+  foo:
+    cmd: powershell Copy-Item input/data.xml data/columns2.txt
+    deps:
+    - path: input/data.xml
+      hash: md5
+      md5: b40f31bee060091c1e3e9ee6cf4ddcda
+      size: 178
+    outs:
+    - path: data/columns2.txt
+      hash: md5
+      md5: b40f31bee060091c1e3e9ee6cf4ddcda
+      size: 178
