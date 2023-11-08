@@ -17,10 +17,10 @@ stages:
     deps:
     - path: input/data.xml
       hash: md5
-      md5: 9d9a0c1e31ade29cfe40fb97431d3ba9
-      size: 177
+      md5: b40f31bee060091c1e3e9ee6cf4ddcda
+      size: 178
     outs:
     - path: data/columns2.txt
       hash: md5
-      md5: 9d9a0c1e31ade29cfe40fb97431d3ba9
-      size: 177
+      md5: b40f31bee060091c1e3e9ee6cf4ddcda
+      size: 178
