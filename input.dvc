@@ -1,14 +1,13 @@
-md5: a4d70144697f5d72139b6f84993cbfa6
+md5: 0762e13a7da8b5026f9cd5a57bb66e28
 frozen: true
 deps:
-- md5: a024beadcf0f6a6f20ba5185528e037c.dir
-  size: 178
-  nfiles: 1
+- size: 178
   hash: md5
   path: s3://sindholt-house-dvc-test/input
+  etag: b40f31bee060091c1e3e9ee6cf4ddcda
 outs:
-- md5: 1854655f0a0c895c51031a8ac092aea0.dir
-  size: 178
+- md5: c6d60dba78961112a34456a97b0a3426.dir
+  size: 177
   nfiles: 1
   hash: md5
   path: input
