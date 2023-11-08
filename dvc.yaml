@@ -1,7 +1,7 @@
 stages:
   transpose:
-    cmd: powershell Copy-Item data/data2.xml data/columns.txt
+    cmd: powershell Copy-Item deps/data.xml data/columns.txt
     deps:
-      - data/data2.xml
+      - deps/data.xml
     outs:
       - data/columns.txt

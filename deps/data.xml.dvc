@@ -1,0 +1,12 @@
+md5: b5a76b7be6e554b8a8cc6adc1c8a7018
+frozen: true
+deps:
+- etag: e8adda54dd362f42246f18a425309ce8
+  size: 170
+  hash: md5
+  path: s3://sindholt-house-dvc-test/data.xml
+outs:
+- hash: md5
+  path: data.xml
+  md5: b40f31bee060091c1e3e9ee6cf4ddcda
+  size: 178
