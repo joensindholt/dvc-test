@@ -1,0 +1,14 @@
+schema: '2.0'
+stages:
+  transpose:
+    cmd: powershell cp input/input.json output/output.json
+    deps:
+    - path: input/input.json
+      hash: md5
+      md5: ec1b7e19ab9d536429e5b2a26e88b440
+      size: 23
+    outs:
+    - path: output/output.json
+      hash: md5
+      md5: ec1b7e19ab9d536429e5b2a26e88b440
+      size: 23

@@ -1,7 +1,7 @@
 stages:
   transpose:
-    cmd: powershell aws s3 cp s3://sindholt-house-dvc-test/input/azurite_db_table.json ./output/azurite_db_table-output.json
+    cmd: powershell cp input/input.json output/output.json
     deps:
-      - s3://sindholt-house-dvc-test/input/azurite_db_table.json
+      - input/input.json
     outs:
-      - output/azurite_db_table-output.json
+      - output/output.json
