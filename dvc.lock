@@ -6,11 +6,11 @@ stages:
     deps:
     - path: s3://sindholt-house-dvc-test/input/azurite_db_table.json
       hash: md5
-      etag: 79ae43678dbc652a4fe79e60c659d962
-      size: 22
-      version_id: WSTCsNnnLqBkN0bXPR5fytO0zqXot56p
+      etag: e36d6a8bdb7eb467bb88e8b4e6fd1e23
+      size: 21
+      version_id: VYYcDSaqehBnp.wH4lcIVH_RdK.9p7U4
     outs:
     - path: output/azurite_db_table-output.json
       hash: md5
-      md5: 79ae43678dbc652a4fe79e60c659d962
-      size: 22
+      md5: e36d6a8bdb7eb467bb88e8b4e6fd1e23
+      size: 21
